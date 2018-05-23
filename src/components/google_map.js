@@ -10,12 +10,13 @@ class GoogleMap extends Component {
       }
     })
   }
+
+  render() {
+    return(
+      <div ref='map'></div>
+    )
+  };
 }
 
-render() {
-  return(
-    <div ref='map' />
-  )
-};
 
 export default GoogleMap;
